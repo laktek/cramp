@@ -1,5 +1,5 @@
-gem 'activesupport', '3.0.beta1'
-gem 'activemodel', '3.0.beta1'
+gem 'activesupport', '3.0.0.beta1'
+gem 'activemodel', '3.0.0.beta1'
 
 gem "arel", '0.2.1'
 gem "rack", "1.1.0"
