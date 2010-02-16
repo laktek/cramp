@@ -24,7 +24,7 @@ module Cramp
 
       include PeriodicTimer
 
-      class_inheritable_accessor :on_data_callbacks, :instance_reader => false
+      class_inheritable_accessor :on_data_callbacks, :instance_reader => true 
       self.on_data_callbacks = []
 
       class << self
